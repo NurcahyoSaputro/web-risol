@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Risol Mayo Riau - Gurih, Lumer & Harga Terjangkau Cuma Rp 2.000</title>
+    <meta
+      name="description"
+      content="Nikmati kelezatan Risol Mayo terbaik di Riau! Digoreng dadakan, kulit super renyah, dan isian mayones lumer berlimpah. Harga murah cuma Rp 2.000/pcs. Pesan sekarang untuk camilan harian atau acara Anda."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Poppins", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-orange-50 text-slate-800 antialiased selection:bg-orange-200 selection:text-slate-900">
+    <div class="min-h-screen bg-gradient-to-b from-yellow-50 via-orange-50 to-yellow-100">
+      <nav
+        id="beranda"
+        data-testid="navbar"
+        class="sticky top-0 z-50 border-b border-orange-100 bg-yellow-50/95 shadow-lg backdrop-blur"
+      >
+        <div class="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+          <a
+            href="#beranda"
+            data-testid="brand-logo-link"
+            class="text-xl font-extrabold tracking-tight text-orange-600 transition-transform duration-300 hover:scale-105"
+          >
+            Risol Mayo Riau
+          </a>
+          <div class="hidden items-center gap-6 md:flex">
+            <a
+              href="#beranda"
+              data-testid="nav-beranda-link"
+              class="font-semibold text-slate-800 transition-colors duration-300 hover:text-orange-600"
+            >
+              Beranda
+            </a>
+            <a
+              href="#keunggulan"
+              data-testid="nav-keunggulan-link"
+              class="font-semibold text-slate-800 transition-colors duration-300 hover:text-orange-600"
+            >
+              Keunggulan
+            </a>
+            <a
+              href="#katalog"
+              data-testid="nav-katalog-link"
+              class="font-semibold text-slate-800 transition-colors duration-300 hover:text-orange-600"
+            >
+              Katalog
+            </a>
+            <a
+              href="https://wa.me/6281327556584?text=Halo%20Admin,%20saya%20mau%20pesan%20Risol%20Mayo%20khas%20Riau.%20Bisa%20dibantu%20proses%20pesanannya?"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="nav-pesan-sekarang-link"
+              class="rounded-full bg-orange-500 px-5 py-2 font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
+              Pesan Sekarang
+            </a>
+          </div>
+          <a
+            href="https://wa.me/6281327556584?text=Halo%20Admin,%20saya%20mau%20pesan%20Risol%20Mayo%20khas%20Riau.%20Bisa%20dibantu%20proses%20pesanannya?"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="mobile-pesan-sekarang-link"
+            class="rounded-full bg-orange-500 px-4 py-2 text-sm font-bold text-white shadow-lg transition-transform duration-300 hover:scale-105 md:hidden"
+          >
+            Pesan
+          </a>
+        </div>
+      </nav>
+
+      <main>
+        <section class="mx-auto w-full max-w-6xl px-4 pb-14 pt-10 sm:px-6 lg:px-8 lg:pt-14">
+          <div class="grid items-center gap-10 lg:grid-cols-2">
+            <div class="space-y-6">
+              <p
+                data-testid="hero-badge"
+                class="inline-flex rounded-full bg-orange-100 px-4 py-2 text-sm font-semibold text-orange-700 shadow"
+              >
+                Camilan Khas Riau yang Selalu Bikin Kangen
+              </p>
+              <h1
+                data-testid="hero-main-heading"
+                class="text-4xl font-extrabold leading-tight text-slate-900 sm:text-5xl lg:text-6xl"
+              >
+                Sensasi Lumer & Renyah di Setiap Gigitan!
+              </h1>
+              <p
+                data-testid="hero-subheadline"
+                class="max-w-xl text-sm leading-relaxed text-slate-700 sm:text-base"
+              >
+                Temukan kelezatan Risol Mayo kebanggaan Riau. Digoreng dadakan dengan isian melimpah, kulit
+                krispi sempurna, dan harga sangat bersahabat. Camilan tepat untuk segala suasana.
+              </p>
+              <a
+                href="https://wa.me/6281327556584?text=Halo%20Admin,%20saya%20mau%20pesan%20Risol%20Mayo%20khas%20Riau.%20Bisa%20dibantu%20proses%20pesanannya?"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="hero-cta-button"
+                class="inline-flex rounded-full bg-orange-500 px-7 py-4 text-center text-base font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              >
+                Pesan Sekarang - Cuma Rp 2.000!
+              </a>
+            </div>
+
+            <div class="relative">
+              <div class="absolute -inset-4 -z-10 rounded-3xl bg-gradient-to-tr from-orange-300/30 via-yellow-200/40 to-transparent blur-2xl"></div>
+              <div class="overflow-hidden rounded-3xl border border-orange-100 bg-white p-3 shadow-xl">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_7b34a8f4-0573-4d05-a031-1e0d2d334915/artifacts/0oj60948_produk-1-risol%20mayo%20original.jpg"
+                  alt="gambar-utama menggunakan produk-1-risol mayo original"
+                  data-testid="hero-main-image"
+                  class="aspect-[4/3] w-full rounded-2xl object-cover object-center"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="keunggulan" class="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+          <div class="mb-9 text-center">
+            <h2 data-testid="keunggulan-heading" class="text-base font-bold text-slate-900 md:text-lg lg:text-2xl">
+              Kenapa Harus Risol Mayo Riau?
+            </h2>
+          </div>
+
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+            <article
+              data-testid="keunggulan-harga-card"
+              class="rounded-xl border border-orange-100 bg-white p-6 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
+              <h3 data-testid="keunggulan-harga-title" class="mb-3 text-xl font-bold text-orange-600">Harga Merakyat</h3>
+              <p data-testid="keunggulan-harga-text" class="text-sm leading-relaxed text-slate-700 sm:text-base">
+                Kualitas premium yang tak bikin kantong bolong. Nikmati kelezatan maksimal hanya dengan Rp 2.000
+                saja per kepingnya.
+              </p>
+            </article>
+
+            <article
+              data-testid="keunggulan-fresh-card"
+              class="rounded-xl border border-orange-100 bg-white p-6 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
+              <h3 data-testid="keunggulan-fresh-title" class="mb-3 text-xl font-bold text-orange-600">100% Fresh Setiap Hari</h3>
+              <p data-testid="keunggulan-fresh-text" class="text-sm leading-relaxed text-slate-700 sm:text-base">
+                Dibuat dari bahan baku pilihan dan selalu digoreng dadakan. Tanpa bahan pengawet, aman dikonsumsi
+                seluruh keluarga.
+              </p>
+            </article>
+
+            <article
+              data-testid="keunggulan-isian-card"
+              class="rounded-xl border border-orange-100 bg-white p-6 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
+              <h3 data-testid="keunggulan-isian-title" class="mb-3 text-xl font-bold text-orange-600">Isian Lumer Melimpah</h3>
+              <p data-testid="keunggulan-isian-text" class="text-sm leading-relaxed text-slate-700 sm:text-base">
+                Paduan smoked beef, telur ayam rebus, dan saus mayones racikan rahasia kami yang langsung pecah dan
+                lumer saat digigit.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="katalog" class="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+          <div class="mb-10 text-center">
+            <h2 data-testid="katalog-heading" class="text-base font-bold text-slate-900 md:text-lg lg:text-2xl">
+              Pilihan Favorit Pelanggan Kami
+            </h2>
+            <p data-testid="katalog-intro" class="mx-auto mt-3 max-w-2xl text-sm text-slate-700 sm:text-base">
+              Spesial disajikan untuk menemani waktu santai atau acara spesial Anda.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+            <article
+              data-testid="produk-1-card"
+              class="overflow-hidden rounded-xl border border-orange-100 bg-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
+              <img
+                src="https://customer-assets.emergentagent.com/job_7b34a8f4-0573-4d05-a031-1e0d2d334915/artifacts/0oj60948_produk-1-risol%20mayo%20original.jpg"
+                alt="produk-1-risol mayo original"
+                data-testid="produk-1-image"
+                class="aspect-[4/3] w-full object-cover object-center"
+              />
+              <div class="space-y-3 p-6">
+                <h3 data-testid="produk-1-name" class="text-2xl font-bold text-orange-600">Risol Mayo Original</h3>
+                <p data-testid="produk-1-description" class="text-sm leading-relaxed text-slate-700 sm:text-base">
+                  Varian best-seller dengan isian lengkap dan mayo khas yang bikin nagih. Ukuran pas, rasa berkelas!
+                </p>
+                <p data-testid="produk-1-price" class="text-lg font-extrabold text-slate-900">Rp 2.000 / pcs</p>
+                <a
+                  href="https://wa.me/6281327556584?text=Halo%20Admin,%20saya%20tertarik%20dengan%20Risol%20Mayo%20Original%20(Rp%202.000/pcs).%20Saya%20ingin%20pesan%20sekarang."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="produk-1-order-button"
+                  class="inline-flex rounded-full bg-green-500 px-6 py-3 text-base font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                >
+                  Beli via WhatsApp
+                </a>
+              </div>
+            </article>
+
+            <article
+              data-testid="produk-2-card"
+              class="overflow-hidden rounded-xl border border-orange-100 bg-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
+              <img
+                src="https://customer-assets.emergentagent.com/job_7b34a8f4-0573-4d05-a031-1e0d2d334915/artifacts/mhtky7qc_produk-2-risol%20mayo%20pedas.jpg"
+                alt="produk-2-risol mayo pedas"
+                data-testid="produk-2-image"
+                class="aspect-[4/3] w-full object-cover object-center"
+              />
+              <div class="space-y-3 p-6">
+                <h3 data-testid="produk-2-name" class="text-2xl font-bold text-orange-600">Risol Mayo Pedas</h3>
+                <p data-testid="produk-2-description" class="text-sm leading-relaxed text-slate-700 sm:text-base">
+                  Varian pedas favorit dengan isian melimpah dan mayo khas yang tetap creamy. Sensasi gurih-pedasnya
+                  pas untuk Anda yang suka cita rasa lebih berani!
+                </p>
+                <p data-testid="produk-2-price" class="text-lg font-extrabold text-slate-900">Rp 2.000 / pcs</p>
+                <a
+                  href="https://wa.me/6281327556584?text=Halo%20Admin,%20saya%20tertarik%20dengan%20Risol%20Mayo%20Pedas%20(Rp%202.000/pcs).%20Saya%20ingin%20pesan%20sekarang."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="produk-2-order-button"
+                  class="inline-flex rounded-full bg-green-500 px-6 py-3 text-base font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                >
+                  Beli via WhatsApp
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer data-testid="footer" class="border-t border-orange-100 bg-yellow-50 py-8">
+        <div class="mx-auto w-full max-w-6xl px-4 text-center text-sm font-medium text-slate-700 sm:px-6 lg:px-8">
+          <p data-testid="footer-text">© 2026 Risol Mayo Riau. Semua Hak Cipta Dilindungi. | Lokasi: Riau</p>
+        </div>
+      </footer>
+    </div>
+
+    <a
+      href="https://wa.me/6281327556584?text=Halo%20Admin,%20saya%20ingin%20bertanya-tanya%20dulu%20seputar%20pesanan%20Risol%20Mayo."
+      target="_blank"
+      rel="noopener noreferrer"
+      data-testid="floating-whatsapp-button"
+      aria-label="Chat WhatsApp"
+      class="fixed bottom-6 right-6 z-[60] inline-flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8" aria-hidden="true">
+        <path
+          d="M12.04 2C6.58 2 2.16 6.42 2.16 11.88c0 1.92.56 3.8 1.61 5.41L2 22l4.86-1.69a9.86 9.86 0 0 0 5.18 1.42h.01c5.45 0 9.87-4.43 9.87-9.88C21.92 6.42 17.5 2 12.04 2zm5.75 13.98c-.24.67-1.4 1.28-1.92 1.31-.49.03-1.11.04-1.79-.18-.41-.13-.93-.3-1.61-.59-2.84-1.22-4.69-4.06-4.84-4.26-.14-.2-1.16-1.54-1.16-2.94s.73-2.09.99-2.37c.26-.27.57-.34.76-.34h.55c.18 0 .42-.07.66.5.24.57.8 1.98.87 2.12.07.14.12.31.02.5-.09.2-.14.31-.29.47-.14.16-.31.36-.44.48-.14.14-.29.29-.12.57.17.29.76 1.25 1.63 2.02 1.12.99 2.07 1.29 2.36 1.43.29.14.46.12.63-.07.17-.2.73-.85.92-1.14.19-.29.39-.24.66-.14.27.09 1.69.8 1.98.95.29.14.48.22.55.34.06.12.06.69-.18 1.35z"
+        />
+      </svg>
+    </a>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9d8f48757a8d34c9","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.9.1","token":"7f7b0fd8732c4326aae4b9d58d5c514a"}' crossorigin="anonymous"></script>
+</body>
+</html>
